@@ -1,0 +1,1290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.none{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: white;
+    z-index: 4;
+}
+.none ul li{
+    display: inline;
+    list-style-type: none;
+}
+.none ul li a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 12px 1.5rem;
+    box-sizing: border-box;
+    color: black;    
+}
+.none ul li a:hover{
+    background-color:rgb(252, 221, 16) ;
+    border-radius: 13px;
+    color: rgb(255, 255, 255);
+}
+.ulone{
+    position: absolute;
+    left: 18.2rem;
+}
+.ultwo{
+    position: absolute;
+    left: 41.5rem;
+}
+img{
+    height: 8vh;
+    width: 4%;
+    position: absolute;
+    left: 37.3rem;
+}
+.bg1{
+    background-image: url(../media/1\ bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.kid1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(69, 77, 90, 0.87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main1{
+    height: 45vh;
+    width: 45%;
+    margin-top: 2.2rem;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.head1{
+    font-size: 5rem;
+    margin-top: 3px;
+}
+.main11{
+    font-size: 0.8rem;
+}
+.main12{
+    font-size: xx-small;
+    position: absolute;
+    top: 6.7rem;
+}
+.bone{
+    background:rgb(255, 255, 255);
+    color:rgb(255, 221, 0) ;
+    position: absolute;
+    right: 14.5rem;
+    top: 9rem;
+    height: 1.8rem;
+    width: 7.5rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: 550;
+    font-size: 0.77rem;
+} 
+.bone:hover{
+    font-size: 0.8rem;
+} 
+span{
+    color:rgb(255, 228, 56) ;
+}
+.img1{
+    position: absolute;
+    background-image: url(../media/dots.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 15.5rem;
+    top: 12rem;
+    height: 3vh;
+    width: 8%;
+}
+.bg2{
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.head2{
+    font-size: 3rem;
+    position: absolute;
+    left: 31rem;
+    top: 2rem;
+}
+.img2{
+    position: absolute;
+    background-image: url(../media/roww.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 36rem;
+    top: 6.7rem;
+    height: 2vh;
+    width: 6%;
+}
+.text2{
+    width: 50%;
+    height: 10vh;
+    position: absolute;
+    left: 20rem;
+    top: 9rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.main2{
+    width: 83%;
+    height: 25vh;
+    position: absolute;
+    left: 7rem;
+    top: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main21{
+    background-image: url(../media/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16vh;
+    width: 10%;
+}
+.main22{
+    background-color: rgb(255, 234, 0);
+    height: 0.3vh;
+    width: 11%;
+}
+.main23{
+    background-image: url(../media/gimble.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16vh;
+    width: 10%;
+}
+.main24{
+    background-color: rgb(255, 234, 0);
+    height:0.3vh;
+    width: 11%;
+}
+.main25{
+    background-image: url(../media/cam.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16vh;
+    width: 10%;
+}
+.main26{
+    background-color:rgb(255, 234, 0);
+    height: 0.3vh;
+    width: 11%;
+}
+
+.main27{
+    background-image: url(../media/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 16vh;
+    width: 10%;
+}
+ .main3{
+    width: 65%;
+    height: 25vh;
+    position: absolute;
+    left: 14.3rem;
+    top: 22rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .main31{
+    height:25vh ;
+    width: 20%;
+ }
+ .main32{
+    height:25vh ;
+    width: 20%;
+ }
+ .main33{
+    height:25vh ;
+    width: 20%;
+ }
+ .main34{
+    height:25vh ;
+    width: 20%;
+ }
+ .four{
+    font-size: 0.85rem;
+ }
+ .para{
+    margin-top: 4px;
+    font-size: xx-small;
+ }
+ .main4{
+    width: 100%;
+    height: 50vh;
+    background-image: url(../media/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
+ .bg3{
+    position: relative;
+    background-color:rgb(252, 221, 16);
+    height: 65vh;
+ }
+ .main4kid{
+    height: 50vh;
+    width: 100%;
+    background-color:rgba(69, 77, 90, 0.91) ;
+ }
+ .img3{
+    position: absolute;
+    bottom: 2.5rem;
+    left: 14rem;
+    height: 53vh;
+    width: 23%;
+    background-image:url(../media/3phone.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .main5{
+    position: absolute;
+    height: 42vh;
+    width: 25%;
+    left: 35rem;
+    bottom: 5.8rem;
+ }
+.pmain5{
+    color: rgb(255, 242, 0);
+ }
+ .main51{
+    font-size: x-small;
+    text-align: justify;
+    margin-top: 10px;
+    color: white;
+ }
+ .main52{
+    position: absolute;
+    top: 6rem;
+    height: 24vh;
+    width: 100%;
+   
+ }
+ .list{
+    height:22vh;
+    width: 80%;
+    position: absolute;
+    bottom: 1rem;
+    left: 3rem;
+    font-size: small;
+    line-height: 2rem;
+    color: white;
+    font-size: 0.75rem;
+ }
+
+ .bullet1{
+    background-image: url(../media/bullets.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0.25rem;
+    left: 1.5rem;
+    height: 2.5vh;
+    width: 4%;
+ }
+ .bullet2{
+    background-image: url(../media/bullets.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 1.55rem;
+    top: 2.3rem;
+    height: 2.5vh;
+    width: 4%;
+ }
+ .bullet3{
+    background-image: url(../media/bullets.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 1.55rem;
+    top: 4.26rem;
+    height: 2.5vh;
+    width: 4%;
+ }
+ .bullet4{
+    background-image: url(../media/bullets.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 1.55rem;
+    top: 6.26rem;
+    height: 2.5vh;
+    width: 4%;
+ }
+ .btwo{
+    background:rgba(255, 255, 255, 0.897);
+    color:rgb(255, 204, 0) ;
+    position: absolute;
+    left: 36rem;
+    top: 19.4rem;
+    height: 1.9rem;
+    width: 8rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s all ease;
+    font-weight: 550;
+} 
+.btwo:hover{
+    font-size: 0.9rem;
+}
+.bg4{
+    height: 160vh;
+    width: 100%;
+    position: relative;
+}
+.head5{
+    position: absolute;
+    top: 3rem;
+    left: 31.7rem;
+    font-size: 2.5rem;
+}
+.img4{
+    position: absolute;
+    top: 6.7rem;
+    left: 36.7rem;
+    height: 3vh;
+    width: 6%;
+    background-image: url(../media/roww.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head51{
+    height: 13vh;
+    width: 45%;
+    position: absolute;
+    left: 22rem;
+    top: 9.3rem;
+    font-size: small;
+    text-align: center;
+}
+.ntwo{
+    height: 7vh;
+    width: 100%;
+    position: absolute;
+    top: 16rem;
+}
+.ntwo ul li{
+    display: inline;
+    list-style-type: none;
+}
+.ntwo ul li a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 12px 1.4rem;
+    box-sizing: border-box;
+    color: black;    
+}
+.ntwo ul li a:hover{
+    background-color:rgb(252, 221, 16) ;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+}
+.three{
+    position: absolute;
+    left: 21.4rem;
+}
+.grid1{
+    height: auto;
+    width: 70%;
+    position: absolute;
+    top: 20rem;
+    left: 12.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
+.grida{
+    background-image: url(../media/c1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridb{
+    background-image: url(../media/c2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridc{
+    background-image: url(../media/c3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridd{
+    background-image: url(../media/c4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gride{
+    background-image: url(../media/c5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridf{
+    background-image: url(../media/c6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridg{
+    background-image: url(../media/c7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridh{
+    background-image: url(../media/c8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.gridi{
+    background-image: url(../media/c9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+.bthree{
+    background:rgb(255, 213, 0);
+    color:rgb(255, 255, 255) ;
+    position: absolute;
+    left: 35rem;
+    top: 55.5rem;
+    height: 2rem;
+    width: 8rem;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.2s all ease;
+    font-weight: 550;
+} 
+.bthree:hover{
+    font-size: 0.9rem;
+}
+.bg5{
+    height: 70vh;
+    width: 100%;
+    background-color:rgb(255, 213, 0);
+    position: relative;
+}
+ video{
+    position: absolute;
+    top: 4.5rem;
+    left: 9rem;
+    height: 40vh;
+    width: 40%;
+}
+.main6{
+    height: 35vh;
+    width: 33%;
+    position: absolute;
+    left: 39.1rem;
+    top: 4.5rem;
+}
+.head6{
+    font-size: 1.3rem;
+}
+.main61{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.main62{
+    margin-top: 1rem;
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+}
+.main63{
+    margin-top: 0.5rem;
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+}
+.main64{
+    margin-top: 0.8rem;
+    font-size: x-small;
+    color: rgb(255, 255, 255);
+}
+.bfour{
+    background:rgba(255, 255, 255, 0.91);
+    color:rgb(255, 213, 0) ;
+    position: absolute;
+    left: 39rem;
+    top: 17rem;
+    height: 1.8rem;
+    width: 7.2rem;
+    border: none;
+    border-radius: 15px;
+    font-weight: 550;
+    cursor: pointer;
+    transition: 0.2s all ease;
+} 
+.bfour:hover{
+    font-size: 0.89rem;
+}
+.bg6{
+    position: relative;
+    height: 84vh;
+    width: 100%;
+    background:rgb(61, 67, 75);
+    color: white;
+}
+.main7{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 3rem;
+    left: 26.6rem;
+}
+.main71{
+    font-size: x-small;
+    position: absolute;
+    top: 5.5rem;
+    left: 28.3rem;
+}
+.bfive{
+    background:rgb(255, 255, 255);
+    color:rgb(255, 213, 0) ;
+    position: absolute;
+    left: 34.5rem;
+    top: 8.5rem;
+    height: 2rem;
+    width: 8.1rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 550;
+} 
+.bfive:hover{
+    transition: 0.2s all ease;
+}
+.main72{
+    height: 58vh;
+    width: 73%;
+    background-image: url(../media/notes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 9.52rem;
+    left: 8rem;
+}
+.bg7{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.main8{
+    font-size: 3rem;
+    position: absolute;
+    left: 30.8rem;
+    top: 2.9rem;
+}
+.main81{
+    position: absolute;
+    background-image: url(../media/roww.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 36.5rem;
+    top: 7.9rem;
+    height: 2vh;
+    width: 6%;
+}
+.main82{
+    width: 48%;
+    height: auto;
+    font-size: small;
+    position: absolute;
+    top: 10rem;
+    left: 20rem;
+    text-align: center;
+}
+.gridtwo{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 14rem;
+    display: grid;
+    grid-template-columns: 0.8fr 0.9fr 2.2fr 1fr;
+}
+.gt1{
+    height: 60vh;
+}
+.gt2{
+    height: 45vh;
+    margin-top: 5.5rem;
+    background-image: url(../media/female.png);
+    opacity: 0.83;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gt3{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.gt4{
+    height: 55vh;
+    margin-top: 2rem;
+    background-image: url(../media/male.png);
+    opacity: 0.5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gt3a{
+    height: 54vh;
+    width: 80%;
+    margin-top: 1rem;
+}
+.main83{
+    color: rgb(255, 213, 0);
+    font-size: 1.4rem;
+}
+.main84{
+    font-size: 1rem;
+    line-height: 2.2rem;
+}
+.main85{
+    font-size: x-small;
+}
+.main86{
+    font-size: x-small;
+    margin-top: 10px;
+}
+.main87{
+    height: 5vh;
+    width: 10%;
+    background-image: url(../media/s1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30.5rem;
+    top: 18rem;
+}
+.main87:hover{
+    cursor: pointer;
+    height: 5.1vh;
+    width: 10.5%;
+    transition: 0.4s;
+}
+.bg8{
+    height: 60vh;
+    background-color:rgba(69, 73, 79, 0.91);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+    font-size: 0.83rem;
+}
+.main90{
+    height: 50vh;
+    width: 36%;
+}
+.main91{
+    height: 50vh;
+    width: 25%;
+    font-size: 0.7rem;
+}
+.m90a{
+    color: rgb(241, 233, 0);
+    font-size: 1.4rem;
+}
+.main92{
+    margin-top: 2.4rem;
+    text-align: justify;
+}
+.main93{
+    margin-top: 0.1rem; 
+    text-align: justify;
+}
+.main94{
+    line-height: 2.8rem;
+}
+.main94a{
+    height: 2vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+.main94aa{
+    height: 100%;
+    width: 85%;
+    background-color: rgb(241, 233, 0);
+    border-radius: 4px;
+}
+.main95{
+    line-height: 3.5rem;
+}
+.main95a{
+    height: 2vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+.main96{
+    line-height: 3.5rem;
+}
+.main96a{
+    height: 2vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+.main97{
+    line-height: 3.6rem;
+}
+.main97a{
+    height: 2vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 4px;
+}
+.bg9{
+    height: 170vh;
+    width: 100%;
+    position: relative;
+    font-size: 0.8rem;
+}
+.bg91{
+    height: 27vh;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 3.5rem;
+    left: 19rem;
+}
+.bg91a{
+    font-size: 3rem;
+}
+.bg91b{
+    background-image: url(../media/roww.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2.5vh;
+    width: 10%;
+    position: absolute;
+    left: 17.75rem;
+    top: 3.55rem;
+}
+.bg91c{
+    margin-top: 2rem;
+}
+.bg92{
+    width: 100%;
+    position: absolute;
+    top: 14.6rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    gap: 1rem;
+}
+.bg92a{
+    height: 57vh;
+    box-shadow: 0px 3px 1px rgba(128, 128, 128, 0.571);
+    position: relative;
+}
+.subbg92a{
+    width: 100%;
+    height: 28vh;
+    background-image: url(../media/br1.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.subbg92b{
+    line-height: 1.5rem;
+    color: rgb(255, 217, 0);
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+.subbg92c{
+   font-size: 0.9rem;
+   line-height: 2rem;
+}
+.subbg92e{
+    font-size: 0.9rem;
+    position: absolute;
+    left: 19.5rem;
+    top: 18.5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 217, 0);
+}
+.bg92b{
+    height: 57vh;
+    position: relative;
+    box-shadow: 0px 3px 1px rgba(128, 128, 128, 0.571);
+}
+.subbg92f{
+    width: 100%;
+    height: 28vh;
+    background-image: url(../media/br2.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.bg92y{
+    height: 60vh;
+}.bg92z{
+    height: 60vh;
+}
+.bg93{
+    width: 100%;
+    position: relative;
+    top: 37.6rem;
+    display: grid;
+    grid-template-columns: 0.76fr 1fr 1fr 1fr 0.76fr;
+    gap: 12px;
+}
+.bg93b{
+    height: 52vh;
+    box-shadow: 0px 3px 1px rgba(128, 128, 128, 0.571);
+    position: relative;
+}
+.subbg93a{
+    line-height: 1.5rem;
+    color: rgb(255, 217, 0);
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+.subbg93b{
+    font-size: 0.85rem;
+    line-height: 1.8rem;
+}
+.subbg93d{
+    position: absolute;
+    top: 16rem;
+    left: 11.4rem;
+    font-size: 0.9rem;
+}
+.bg93bb{
+    width: 100%;
+    height: 24.5vh;
+    background-image: url(../media/crop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg93c{
+    height: 52vh;
+    box-shadow: 0px 3px 1px rgba(128, 128, 128, 0.571);
+    position: relative;
+}
+.bg93cc{
+    width: 100%;
+    height: 24.5vh;
+    background-image: url(../media/orange.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg93d{
+    height: 52vh;
+    box-shadow: 0px 3px 1px rgba(128, 128, 128, 0.571);
+    position: relative;
+}
+.bg93dd{
+    width: 100%;
+    height: 24.5vh;
+    background-image: url(../media/corn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bbutton{
+    height: 6vh;
+    width: 10%;
+    background-color: rgb(255, 217, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 550;
+    position: relative;
+    bottom: 3rem;
+    left: 35rem;
+}
+.bbutton:hover{
+    font-size: 0.95rem;
+    transition: 0.5s all ease;
+    font-weight: 550;
+    cursor: pointer;
+}
+.bg10{
+    height: 30vh;
+    width: 100%;
+    background-color:rgb(255, 213, 0);
+    position: relative;
+}
+.main11a{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    line-height: 5.5rem;
+}
+.input1{
+    height: 7vh;
+    width: 23%;
+    border: none;
+    border-radius: 10px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 6rem;
+    left: 25.8rem;
+}
+.bsix{
+    height: 7vh;
+    width: 10%;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(109, 109, 109);
+    border: none;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 6rem;
+    left: 45.3rem;
+}
+.bsix:hover{
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: 3px solid rgb(255, 213, 0);
+    transition: 0.3s all ease;
+}
+.bg11{
+    height: 92vh;
+    width: 100%;
+    background-image: url(../media/phone\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg11kid{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(63, 70, 81, 0.817) ;
+    position: relative;
+}
+.mainbg11i{
+    height: 20vh;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    left: 18rem;
+}
+.mainbg11a{
+    height: 3vh;
+    width: 10%;
+    background-image: url(../media/roww.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 18.5rem;
+    top: 0.7rem;
+}
+.bg11para{
+    font-size: smaller;
+    position: absolute;
+    top: 5rem;
+}
+.mainbg11ii{
+    height: 42vh;
+    width: 70.36%;
+    position: absolute;
+    top: 11rem;
+    left: 11rem;
+}
+.input2{
+    height: 6vh;
+    width: 31.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-left: 8px;
+}
+.input2::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.518);
+}
+.input3{
+    height: 6vh;
+    width: 31.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+.input3::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.454);
+}
+.input4{
+    height: 6vh;
+    width: 31.5%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+.input4::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.432);
+}
+textarea{
+    background-color: rgba(255, 255, 255, 0);
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-top: 0.7rem;
+    padding-top: 12px;
+    padding-left: 0.83rem;
+    box-sizing: border-box;
+}
+textarea::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.432);
+}
+.blast{
+    background:rgba(255, 255, 255, 0.842);
+    color:rgba(43, 43, 43, 0.858) ;
+    position: absolute;
+    left: 34.5rem;
+    top: 29rem;
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+} 
+.blast:hover{
+    background:rgb(255, 255, 255);
+    color:rgba(43, 43, 43, 0.945) ;
+    transition: 0.3s all ease;
+}
+.bg12{
+    height: 30vh;
+    width: 100%;
+    background-color:rgb(42, 45, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg12a{
+    height: 25vh;
+    width: 30%;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.772);
+}
+.subbg12b{
+    line-height: 3rem;
+}.subbg12d{
+    line-height: 2.7rem;
+}
+.subbg12c{
+    width: 100%;
+    height: 25%;
+    background-image: url(../media/s2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subbg12c:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width:1024px) {
+    .none{
+        height: 13vh;
+    }
+    .ulone{
+        left: 10.6rem;
+    }
+    .ultwo{
+        left: 34rem;
+    }
+    img{
+        height: 13vh;
+        width: 4.2%;
+        left: 30rem;
+    }
+    .main1{
+        height: 45vh;
+        width: 45%;
+        margin-top: 2.2rem;
+    }
+    .head1{
+        font-size: 4rem;
+        margin-top: 3px;
+    }
+    .main11{
+        font-size: 0.63rem;
+    }
+    .main12{
+        font-size: 0.55rem;
+        top: 5.5rem;
+    }
+    .bone{
+        right: 12.5rem;
+        top: 8.1rem;
+        height: 1.4rem;
+        width: 5.5rem;
+        font-size: 0.6rem;
+    }  
+    .img1{
+        left: 12.5rem;
+        top: 10.7rem;
+    }
+    .bg2{
+        height: 90vh;
+    }
+    .head2{
+        font-size: 2rem;
+        left: 26rem;
+        top: 1.8rem;
+    }
+    .img2{
+        left: 30rem;
+        top: 4.5rem;
+        height: 3vh;
+        width: 4%;
+    }
+    .text2{
+        width: 40%;
+        height: 10vh;
+        left: 18.5rem;
+        top: 6rem;
+        font-size: 0.5rem;
+    }
+    .main2{
+        width: 58%;
+        left: 12.7rem;
+        top: 8rem;
+    }
+    .main3{
+        width: 45%;
+        left: 17rem;
+        top: 13rem;
+     }
+     .four{
+        font-size: 0.6rem;
+     }
+     .para{
+        margin-top: 2px;
+        font-size: 0.4rem;
+     }
+     .img3{
+        bottom: 1.2rem;
+        left: 14rem;
+        height: 58vh;
+        width: 20%;
+     }
+     .main5{
+        font-size: 0.8rem;
+        height: 20vh;
+        width: 27%;
+        left: 27rem;
+        bottom: 8.9rem;
+     }
+     .main51{
+        font-size: 0.6rem;
+        margin-top: 5px;
+     }
+     .main52{
+        top: 4rem;
+     }
+     .list{
+        top: 0.1rem;
+        left: 2rem;
+        line-height: 1.3rem;
+        font-size: 0.6rem;
+     }
+    
+     .bullet1{
+        top: 0.44rem;
+        left: 1rem;
+        height: 2.6vh;
+        width: 4%;
+     }
+     .bullet2{
+        left: 1rem;
+        top: 1.75rem;
+        height: 2.6vh;
+        width: 4%;
+     }
+     .bullet3{
+        left: 1rem;
+        top: 3.05rem;
+        height: 2.6vh;
+        width: 4%;
+     }
+     .bullet4{
+        left: 1rem;
+        top: 4.3rem;
+        height: 2.6vh;
+        width: 4%;
+     }
+     .btwo{
+        left: 28rem;
+        top: 11rem;
+        height: 1.4rem;
+        width: 6rem;
+        font-size: x-small;
+    } 
+    textarea{
+        right: 3rem;
+    }
+}
+
